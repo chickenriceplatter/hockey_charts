@@ -1,0 +1,53 @@
+* {
+  font-family: helvetica;
+}
+
+h2 {
+  text-align: center;
+}
+
+.axis path,
+.axis line {
+  fill: none;
+  stroke: black;
+  shape-rendering: crispEdges;
+}
+
+.axis text {
+  font-family: sans-serif;
+  font-size: 11px;
+}
+
+.label {
+  fill: #4b5b64;
+}
+
+.hidden {
+  display: none;
+}
+
+rect {
+  fill: #0077bb;
+  stroke: white;
+}
+
+rect:hover {
+  fill: #fa4b01;
+}
+
+.data-box {
+  position: absolute;
+  width: auto;
+  height: auto;
+  padding: 5px;
+  background-color: white;
+  border: 1px solid black;
+  -webkit-border-radius: 10px;
+  -moz-border-radius: 10px;
+  border-radius: 10px;
+  -webkit-box-shadow: 4px 4px 10px rgba(0, 0, 0, 0.4); -moz-box-shadow: 4px 4px 10px rgba(0, 0, 0, 0.4); box-shadow: 4px 4px 10px rgba(0, 0, 0, 0.4); pointer-events: none;
+}
+
+.line-one, .line-two, .line-three, .line-four {
+  margin: 0;
+}
